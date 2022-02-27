@@ -1,0 +1,39 @@
+.home{
+    background-image: url('../images/nega-LcOyjcKIAao-unsplash.jpg');
+    height: 95vh;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  .card {
+     width: 180px;
+     height: auto;
+     background-color: white;
+     text-align: center;
+     align-items: center;
+     cursor: pointer;
+     border-radius: 10px;
+     box-shadow: 3px 6px 10px 8px;
+     margin: 0 auto;
+ } 
+  .card .img img{
+    width: 100px;
+    height: 100px;
+ }
+ @media (max-width: 576px) {
+     .home{
+         grid-template-columns: repeat(1, 1fr);
+         height: 120vh;
+     }
+     .card {
+         width: 70%;
+         height: auto;
+         margin: 20px auto;
+     }
+ }
+

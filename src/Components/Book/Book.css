@@ -1,0 +1,85 @@
+.pick-up input, label {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.pick-up {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.pick-up .submit{
+  width: 100%;
+  margin-top: 8px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.book{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.search-result {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.search-location {
+  background-color: red;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  
+}
+.search-details img {
+  width: 50px;
+  height: 50px;
+ 
+}
+.search-details {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: 10px 0;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.map {
+    width: 40%;
+}
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px){
+  .book{
+    flex-direction: column;
+  }
+  .pick-up{
+    width: 75%;
+    margin: 10px auto;
+  }
+  .map{
+    width: 80%;
+    margin: 10px auto;
+  }
+  .search-result{
+    width: 75%;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,87 @@
+.login{
+  width: 500px;
+  margin: 0 auto;
+    
+   
+    
+}
+.login form {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px auto;
+    
+}
+.login form input {
+ display: block;
+ border: none;
+ border-bottom: 1px solid black;
+ margin-top: 10px;
+ padding: 10px;
+ width: 80%;
+ margin-left: 10px;
+    
+}
+.create-account > input[type="submit"], .login-account > input[type="submit"]{
+  background-color: orangered;
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 80%;
+  margin-left: 10px;
+  cursor: pointer; 
+}
+.create-account p, .login-account p{
+  font-size: 15px;
+  text-align: center;  
+}
+.create-account p > input[type="submit"], .login-account p > input[type="submit"]{
+  cursor: pointer;
+  color: orangered;
+  display: inline;
+  border: none;
+  background-color: white;
+}
+.login hr{
+  width: 50%;
+  
+}
+.fb-login img, .google-login img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fb-login, .google-login{
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 70%;
+  cursor: pointer;
+ }
+.login  button{
+  border: none;
+  background-color: white;
+}
+.login h4, h3{
+  text-align: center;
+}
+.login .error{
+  color: red;
+  text-align: center;
+}
+@media (max-width: 576px){
+  .login form{
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  .fb-login, .google-login{
+    width: 50%;
+    margin: 5px auto;
+  }
+  .login{
+    width: auto;
+  }
+} 
